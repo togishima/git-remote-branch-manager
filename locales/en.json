@@ -1,0 +1,22 @@
+{
+  "FzfNotFound": "fzf is not found. Please install fzf to use this tool.",
+  "InstallFzf": "You can install fzf from https://github.com/junegunn/fzf#installation",
+  "ErrorGettingRemoteBranches": "Error getting remote branches: {{.Error}}",
+  "NoRemoteBranches": "No remote branches found.",
+  "DeletionCancelled": "Deletion cancelled.",
+  "NoBranchesSelected": "No branches selected.",
+  "ConfirmDeletion": "Confirm deletion of the following remote branches:",
+  "Branch": "Branch",
+  "Remote": "Remote",
+  "ErrorDeletingBranch": "Error deleting remote branch {{.Branch}}: {{.Error}}",
+  "BranchDeletedSuccessfully": "Remote branch {{.Branch}} deleted successfully.",
+  "HelpUsage": "Usage: git-remote-branch-manager [options]",
+  "HelpDescription": "A tool to interactively manage remote git branches.",
+  "HelpFlag": "Show help message",
+  "HelpLangFlag": "Specify the language (e.g., en, ja)",
+  "MergedIndicator": "(merged)",
+  "UnmergedIndicator": "(unmerged)",
+  "ProtectedIndicator": "(protected)",
+  "ErrorGettingRemoteBranchDetails": "Error getting details for remote branch {{.Branch}}: {{.Error}}",
+  "ProtectedBranchSkipped": "Skipping protected branch: {{.Branch}}"
+}

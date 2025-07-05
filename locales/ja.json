@@ -1,0 +1,22 @@
+{
+  "FzfNotFound": "fzf が見つかりません。このツールを使用するには fzf をインストールしてください。",
+  "InstallFzf": "fzf は https://github.com/junegunn/fzf#installation からインストールできます。",
+  "ErrorGettingRemoteBranches": "リモートブランチの取得中にエラーが発生しました: {{.Error}}",
+  "NoRemoteBranches": "リモートブランチが見つかりません。",
+  "DeletionCancelled": "削除がキャンセルされました。",
+  "NoBranchesSelected": "ブランチが選択されませんでした。",
+  "ConfirmDeletion": "以下のリモートブランチの削除を確認します:",
+  "Branch": "ブランチ",
+  "Remote": "リモート",
+  "ErrorDeletingBranch": "リモートブランチ {{.Branch}} の削除中にエラーが発生しました: {{.Error}}",
+  "BranchDeletedSuccessfully": "リモートブランチ {{.Branch}} が正常に削除されました。",
+  "HelpUsage": "使い方: git-remote-branch-manager [オプション]",
+  "HelpDescription": "リモートの Git ブランチを対話的に管理するツールです。",
+  "HelpFlag": "ヘルプメッセージを表示します",
+  "HelpLangFlag": "言語を指定します (例: en, ja)",
+  "MergedIndicator": "(マージ済み)",
+  "UnmergedIndicator": "(未マージ)",
+  "ProtectedIndicator": "(保護済み)",
+  "ErrorGettingRemoteBranchDetails": "リモートブランチ {{.Branch}} の詳細取得中にエラーが発生しました: {{.Error}}",
+  "ProtectedBranchSkipped": "保護されたブランチはスキップされました: {{.Branch}}"
+}
