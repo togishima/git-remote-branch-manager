@@ -120,18 +120,25 @@ func main() {
 
 	flag.Parse()
 
-	var lang string
+	var selectedLang string
 	if *langFlag != "" {
-		lang = *langFlag
+		selectedLang = *langFlag
 	} else {
-		lang = os.Getenv("LANG")
+		envLang := os.Getenv("LANG")
+		if strings.Contains(envLang, "ja") {
+			selectedLang = "ja"
+		} else {
+			selectedLang = "en" // Default to English if parsing fails
+		}
 	}
 
-	if !strings.HasPrefix(lang, "ja") {
-		lang = "en"
+
+	// Fallback to English if the selected language is not explicitly supported
+	if selectedLang != "ja" {
+		selectedLang = "en"
 	}
 
-	localizer := i18n.NewLocalizer(bundle, lang)
+	localizer := i18n.NewLocalizer(bundle, selectedLang)
 
 	// Handle internal fzf preview request
 	if *getLogFlag != "" {
