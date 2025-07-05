@@ -26,7 +26,7 @@ A command-line tool to interactively manage and delete remote Git branches.
 2.  **Build from source**:
 
     ```bash
-    git clone https://github.com/your-username/git-remote-branch-manager.git # Replace with actual repo URL
+    git clone https://github.com/togishima/git-remote-branch-manager.git
     cd git-remote-branch-manager
     go build -o git-remote-branch-manager .
     ```
